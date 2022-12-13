@@ -63,3 +63,23 @@ Route::post('/ddjj','RddjjController@postProcesosbuscar')->name('repDDJJ.ddjj');
 
 Route::get('ddjjEXCEL', [App\Http\Controllers\RddjjController::class,'export']);
 
+/////// ventas  de certificados oic
+Route::get('/voic','VoicController@getProcesos')->name('voic');
+Route::post('/voic','VoicController@postProcesosbuscar')->name('repVOIC.voic');
+
+Route::get('voicEXCEL', [App\Http\Controllers\VoicController::class,'export']);
+
+Route::get('/excel','VoicController@get')->name('excel');
+Route::post('/excel','VoicController@postProcesos')->name('repVOIC.excel');
+/////// REPORTE  DE ANULACIONES  DE SETIFICADOS DE ORIGEN
+Route::get('/anco','AncoController@getProcesos')->name('anco');
+Route::post('/anco','AncoController@postProcesosbuscar')->name('repANCO.anco');
+
+
+
+
+/////// REPORTES de emisin de certificado de origen
+Route::get('/reco','RecoController@getProcesos')->name('reco');
+Route::post('/reco','RecoController@postProcesosbuscar')->name('repRECO.reco');
+
+Route::get('recoEXCEL', [App\Http\Controllers\RecoController::class,'export']);

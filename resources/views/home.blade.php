@@ -150,8 +150,35 @@
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
                     </div>
-
-
+                    <h1> VENTAS DE CERTIFICADO OIC</h1>
+                    
+                    <div class="col-md-2">
+                       <form action="{{url('voic')}}" enctype="multipart/form-data">
+                           <button class="btn btn-success">PDF</button>
+                       </form>
+                       
+                    </div>
+                    <div class="col-md-2">
+                       <form action="{{url('excel')}}" enctype="multipart/form-data">
+                           <button class="btn btn-success">excel  </button>
+                       </form>
+                       
+                    </div>
+                   
+                    <h1> REPORTE DE EMISION DE CERTIFICADOS DE ORIGEN </h1>
+                    
+                    <div class="col-md-2">
+                       <form action="{{url('reco')}}" enctype="multipart/form-data">
+                           <button class="btn btn-success">PDF</button>
+                       </form>
+                       
+                    </div>
+                    
+                    <div class="col-md-2">
+                       <form action="{{url('recoEXCEL')}}" enctype="multipart/form-data">
+                           <button class="btn btn-success"> EXCEL</button>
+                       </form>
+                    </div>
         
     </div>
 </div>
