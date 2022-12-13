@@ -53,17 +53,17 @@
                        </form>
                     </div>
 -->
- <!--                      <h1> SEGUIMIENTO DE DDJJ</h1>
+                 <h1> SEGUIMIENTO DE DDJJ - EST LISTO</h1>
                   
                     <div class="col-md-2">
                        <form action="{{url('sddjj')}}" enctype="multipart/form-data">
-                           <button class="btn btn-success">pdf</button>
+                            <button class="btn btn-success">pdf</button>
                        </form>
                        
                     </div>
                     
                     <div class="col-md-2">
-                       <form action="{{url('sddjjEXCEL')}}" enctype="multipart/form-data">
+                       <form action="{{url('exce')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> ----EXCEL</button>
                        </form>
                     </div>
@@ -134,9 +134,8 @@
                        </form> 
                     </div> 
                     
- -->
-
-                           <h1> REPORTE DE DECLARACIÓN  JURADA DE ORIGEN</h1>
+ 
+                           <h1> REPORTE DE DECLARACIÓN  JURADA DE ORIGEN- YA ESTA LSTO</h1>
                     
                     <div class="col-md-2">
                        <form action="{{url('ddjj')}}" enctype="multipart/form-data">
@@ -146,7 +145,7 @@
                     </div>
                     
                     <div class="col-md-2">
-                       <form action="{{url('ddjjEXCEL')}}" enctype="multipart/form-data">
+                       <form action="{{url('ddjjexcel')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
                     </div>

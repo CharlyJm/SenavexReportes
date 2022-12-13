@@ -30,7 +30,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/sddjj','SddjjController@getProcesos')->name('sddjj');
 Route::post('/sddjj','SddjjController@postProcesosbuscar')->name('repSDDJJ.sddjj');
 
-Route::get('sddjjEXCEL', [App\Http\Controllers\SddjjController::class,'export']);
+Route::get('/exce','SddjjController@get')->name('exce');
+Route::post('/exce','SddjjController@postProcesos')->name('repSDDJJ.excel');
 
 ////// SEGUIMIENTO a certificadore de origen
 Route::get('/sco','ScoController@getProcesos')->name('sco');
@@ -61,17 +62,20 @@ Route::get('oicEXCEL', [App\Http\Controllers\OicController::class,'export']);
 Route::get('/ddjj','RddjjController@getProcesos')->name('ddjj');
 Route::post('/ddjj','RddjjController@postProcesosbuscar')->name('repDDJJ.ddjj');
 
+Route::get('/ddjjexcel','RddjjController@get')->name('ddjjexcel');
+Route::post('/ddjjexcel','RddjjController@postProcesos')->name('repDDJJ.excel');
+
 Route::get('ddjjEXCEL', [App\Http\Controllers\RddjjController::class,'export']);
 
 /////// ventas  de certificados oic
-Route::get('/voic','VoicController@getProcesos')->name('voic');
-Route::post('/voic','VoicController@postProcesosbuscar')->name('repVOIC.voic');
+// Route::get('/voic','VoicController@getProcesos')->name('voic');
+// Route::post('/voic','VoicController@postProcesosbuscar')->name('repVOIC.voic');
 
-Route::get('voicEXCEL', [App\Http\Controllers\VoicController::class,'export']);
+// Route::get('voicEXCEL', [App\Http\Controllers\VoicController::class,'export']);
 
-Route::get('/excel','VoicController@get')->name('excel');
-Route::post('/excel','VoicController@postProcesos')->name('repVOIC.excel');
-/////// REPORTE  DE ANULACIONES  DE SETIFICADOS DE ORIGEN
+// // Route::get('/excel','VoicController@get')->name('excel');
+// // Route::post('/excel','VoicController@postProcesos')->name('repVOIC.excel');
+// /////// REPORTE  DE ANULACIONES  DE SETIFICADOS DE ORIGEN
 Route::get('/anco','AncoController@getProcesos')->name('anco');
 Route::post('/anco','AncoController@postProcesosbuscar')->name('repANCO.anco');
 
