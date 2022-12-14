@@ -129,7 +129,7 @@
                                    <td class="table_texto4">{{$proceso->fecha_registro}}</td>
                                    <td class="table_texto4">{{$proceso->estado}}</td>
                                    <td class="table_texto4">{{$proceso->certificador}}</td>
-                                   <td class="table_texto4">{{$proceso->fecha_entrega}}</td>
+                                   <td class="table_texto4">{{$proceso->fecha_asignacion}}</td>
                                    <td class="table_texto4">{{$proceso->observaciones}}</td>
                                    <td class="table_texto4">{{$proceso->regional}}</td>
                                    <td class="table_texto4">{{$proceso->mes}}</td>

@@ -219,11 +219,11 @@ $proceso="SELECT *, case
         ) z";
 
 $procesos=DB::select($proceso);
-    return View('repSGCDDJJ.pdf.home', compact('procesos','f1','f2'));
-    // return View('repRRCO.rrco.home', ['procesos'=>$procesos,'f1'=>$f1,'f2'=>$f2]);
-    //  return \PDF::loadView('repSGCDDJJ.pdf.home', compact('procesos','f1','f2'))
-    //         ->setPaper('a3', 'landscape')
-    //         ->download('filtrado.pdf');
+    // return View('repSGCDDJJ.pdf.home', compact('procesos','f1','f2'));
+
+     return \PDF::loadView('repSGCDDJJ.pdf.home', compact('procesos','f1','f2'))
+            ->setPaper('a3', 'landscape')
+            ->download('filtrado.pdf');
    
 }
 

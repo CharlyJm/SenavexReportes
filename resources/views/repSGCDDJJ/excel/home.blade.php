@@ -92,7 +92,7 @@
                                    <td style='border:4px solid #f00;'>{{$proceso->fecha_registro}}</td>
                                    <td style='border:4px solid #f00;'>{{$proceso->estado}}</td>
                                    <td style='border:4px solid #f00;'>{{$proceso->certificador}}</td>
-                                   <td style='border:4px solid #f00;'>{{$proceso->fecha_entrega}}</td>
+                                   <td style='border:4px solid #f00;'>{{$proceso->fecha_asignacion}}</td>
                                    <td style='border:4px solid #f00;'>{{$proceso->observaciones}}</td>
                                    <td style='border:4px solid #f00;'>{{$proceso->regional}}</td>
                                    <td style='border:4px solid #f00;'>{{$proceso->mes}}</td>
