@@ -85,7 +85,7 @@
                        </form>
                     </div>
 
-
+<!-- 
                      <h1> REGISTRO DE SOLICITUD CO</h1>
                     
                     <div class="col-md-2">
@@ -100,9 +100,9 @@
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
                     </div>
-                    
+                     -->
 
-                    <h1> S SEGUIMIENTO A CERTIFICADOS DE ORIGEN</h1>
+                    <h1>  SEGUIMIENTO A CERTIFICADOS DE ORIGEN</h1>
                     
                     <div class="col-md-2">
                        <form action="{{url('sco')}}" enctype="multipart/form-data">
@@ -112,14 +112,14 @@
                     </div>
                     
                     <div class="col-md-2">
-                       <form action="{{url('scoEXCEL')}}" enctype="multipart/form-data">
+                       <form action="{{url('excel')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
                     </div>
 
                     
 
-                    <h1> RREP  EMISION DE CERTIFICADO DE CAFE</h1>
+                    <!-- <h1> RREP  EMISION DE CERTIFICADO DE CAFE</h1>
                     
                     <div class="col-md-2">
                        <form action="{{url('oic')}}" enctype="multipart/form-data">
@@ -132,7 +132,7 @@
                        <form action="{{url('oicEXCEL')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> EXCEL</button>
                        </form> 
-                    </div> 
+                    </div>  -->
                     
 <!--  
                            <h1> REPORTE DE DECLARACIÓN  JURADA DE ORIGEN- YA ESTA LSTO</h1>
@@ -144,12 +144,12 @@
                        
                     </div> -->
                     
-                    <div class="col-md-2">
+                    <!-- <div class="col-md-2">
                        <form action="{{url('ddjjexcel')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
-                    </div>
-                    <h1> VENTAS DE CERTIFICADO OIC</h1>
+                    </div> -->
+                    <!-- <h1> VENTAS DE CERTIFICADO OIC</h1>
                     
                     <div class="col-md-2">
                        <form action="{{url('voic')}}" enctype="multipart/form-data">
@@ -191,7 +191,7 @@
                        <form action="{{url('racoexcel')}}" enctype="multipart/form-data">
                            <button class="btn btn-success"> EXCEL</button>
                        </form>
-                    </div>
+                    </div> -->
     </div>
 </div>
 @endsection

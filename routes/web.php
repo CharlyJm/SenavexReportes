@@ -37,16 +37,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/sco','ScoController@getProcesos')->name('sco');
 Route::post('/sco','ScoController@postProcesosbuscar')->name('repSCO.sco');
 
-Route::get('scoEXCEL', [App\Http\Controllers\ScoController::class,'export']);
+Route::get('/excel','ScoController@get')->name('excel');
+Route::post('/excel','ScoController@postProcesos')->name('repSCO.excel');
 
 /////// SOLICITUD DE SOLICITUDES DDJJ
-Route::get('/sgcddjj','SgcddjjController@getProcesos')->name('sgcddjj');
-Route::post('/sgcddjj','SgcddjjController@postProcesosbuscar')->name('repSGCDDJJ.sgcddjj');
 
-Route::get('sgcddjjEXCEL', [App\Http\Controllers\SgcddjjController::class,'export']);
-
-Route::get('/excel','SgcddjjController@get')->name('excel');
-Route::post('/excel','SgcddjjController@postProcesos')->name('repSGCDDJJ.excel');
 /////// SOLICITUD DE SOLICITUDES CO
 Route::get('/sgcco','SgccoController@getProcesos')->name('sgcco');
 Route::post('/sgcco','SgccoController@postProcesosbuscar')->name('repSGCCO.sgcco');
