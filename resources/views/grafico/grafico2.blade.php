@@ -114,10 +114,6 @@
         name: 'KARAJISTAN',
         data:jj.kazajistan
     
-        }, 
-    {
-        name: 'KAR',
-    
         }],
         responsive: {
             rules: [{

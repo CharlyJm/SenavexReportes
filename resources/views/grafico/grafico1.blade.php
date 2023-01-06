@@ -10,7 +10,6 @@
 
 <body>
     <div id="container"></div>
-    <div id="container2"></div>
 </body>
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -41,7 +40,7 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Browser market shares in April, 2022'
+        text: 'TOTAL ESTADISTICO DE LOS ACUERDOS "DECLARACIONES JURADAS  , CERTIFICADOS DE ORIGEN Y RUEX"'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

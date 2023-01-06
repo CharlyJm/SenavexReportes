@@ -20,7 +20,7 @@
 Highcharts.chart('container', {
 
 title: {
-    text: 'Total de Declaraciones juradas en  2021'
+    text: 'TOTAL DE LOS LOS ACUERDOS DE LOS  ULTIMOS 12 MESES'
 },
 yAxis: {
     title: {
