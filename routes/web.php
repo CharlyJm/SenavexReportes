@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RrcoController;
-
+use App\Http\Controllers\ChartController;
 Route::get('/', function () {
-    return view('home');
+    return view('layouts/admin');
 });
 
 Auth::routes();
@@ -94,3 +94,10 @@ Route::post('/reco','RecoController@postProcesosbuscar')->name('repRECO.reco');
  
 Route::get('/recoexcel','RecoController@get')->name('recoexcel');
 Route::post('/recoexcel','RecoController@postProcesos')->name('repRECO.excel');
+
+
+
+///////////////////     GRFICO       /////////////////////////
+Route::get ("/chart",[ChartController::class,'index']);
+Route::get ("/ChartTorta",[ChartController::class,'ChartTorta']);
+Route::get ("/ChartTotal",[ChartController::class,'ChartTotal']);
