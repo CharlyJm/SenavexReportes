@@ -19,17 +19,14 @@
  
     Highcharts.chart('container', {
         title: {
-            text:'DECLARACIONES JURADAS -  ACUERDOS '
-        },
-        subtitle: {
-            text: 'Source: positronx.io'
+            text:'DECLARACIONES JURADAS APROBADA POR MES 2021 SEGUN ACUERDO'
         },
         xAxis:{
                 categories:['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
             },
             yAxis:{
                 title:{
-                    text:'Numero de Acuerdos'
+                    text:'Cantidad  de Acuerdos'
 
             }
         },

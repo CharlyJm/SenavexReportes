@@ -40,7 +40,7 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'TOTAL ESTADISTICO DE LOS ACUERDOS "DECLARACIONES JURADAS  , CERTIFICADOS DE ORIGEN Y RUEX"'
+        text: 'PORCENTAJE DE TRAMITES EN SENAVEX (DDJJ, CO, RUEX)'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'

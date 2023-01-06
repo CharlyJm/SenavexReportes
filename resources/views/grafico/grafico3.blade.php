@@ -20,7 +20,7 @@
 Highcharts.chart('container', {
 
 title: {
-    text: 'TOTAL DE LOS LOS ACUERDOS DE LOS  ULTIMOS 12 MESES'
+    text: 'DECLARACIONES JURADAS APROBADA POR MES 2021'
 },
 yAxis: {
     title: {
